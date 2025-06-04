@@ -17,7 +17,7 @@ stations = [
 ]
 
 def generate_magnitude():
-    alpha, beta = 2, 10
+    alpha, beta = 4, 8
     raw = random.betavariate(alpha, beta)  # 0–1
     magnitude = raw * 10.0
     return round(magnitude, 2)
