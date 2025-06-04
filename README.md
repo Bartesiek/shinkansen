@@ -1,2 +1,2 @@
 # shinkansen
-Projekt z przedmiotu analiza danych w czasie rzeczywistym
+Projekt z przedmiotu Analiza danych w czasie rzeczywistym
