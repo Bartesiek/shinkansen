@@ -18,8 +18,7 @@ for message in consumer:
     station_id = data['station_id']
     timestamp = data['timestamp']
 
-    # Prosty alert przy magnitudzie >= 3.0
-    if magnitude >= 3.0:
-        print(f"[ALERT] Silne trzęsienie ziemi! Stacja: {station_id}, Magnituda: {magnitude}, Czas: {timestamp}. [Wysłano sygnał do zatrzymania pociągów w pobliżu]")
+    if magnitude >= 5.0:
+        print(f"[ALERT] Silne trzęsienie ziemi! Stacja: {station_id}, Magnituda: {magnitude}, Czas: {timestamp}. Wysłano polecenie zatrzymania się do pociągów w pobliżu")
     else:
         print(f"Odczyt z {station_id} | Magnituda: {magnitude}")
